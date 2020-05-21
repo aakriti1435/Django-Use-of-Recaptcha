@@ -13,7 +13,7 @@ def index(request):
 
         #recaptcha backend
         clientKey = request.POST['g-recaptcha-response']
-        secretKey = 'Enter Your secret key here'
+        secretKey = 'Enter Your server side secret key here'
 
         captchaData = {
             'secret' : secretKey,
